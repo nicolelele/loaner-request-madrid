@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment>Deployment prep</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Loaner Laptop">98674bc1e53073007f44ae6b2babbe5a</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-12 14:39:26</sys_created_on>
+        <sys_id>98674bc1e53073007f44ae6b2babbe93</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">0f50bd74e57833007f44ae6b2babbe68</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">0f50bd74e57833007f44ae6b2babbe68</sys_scope>
+        <sys_update_name>sys_hub_action_instance_98674bc1e53073007f44ae6b2babbe93</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-12 14:39:26</sys_updated_on>
+        <ui_id>56b0ade2-3348-4adb-8f7b-871d02cb09b4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=98674bc1e53073007f44ae6b2babbe93"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>98674bc1e53073007f44ae6b2babbe93</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-12 14:39:26</sys_created_on>
+        <sys_id>50674bc1e53073007f44ae6b2babbe99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-12 14:39:26</sys_updated_on>
+        <value>priority=3^short_description=Prepare the laptop for deployment.</value>
+        <variable display_value="">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>98674bc1e53073007f44ae6b2babbe93</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-12 14:39:26</sys_created_on>
+        <sys_id>9c674bc1e53073007f44ae6b2babbe98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-12 14:39:26</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">ff3a6335531003003bf1d9109ec58777</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=98674bc1e53073007f44ae6b2babbe93"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>98674bc1e53073007f44ae6b2babbe93</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-12 14:39:26</sys_created_on>
+        <sys_id>1c674bc1e53073007f44ae6b2babbe98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-12 14:39:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>98674bc1e53073007f44ae6b2babbe93</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-12 14:39:26</sys_created_on>
+        <sys_id>58674bc1e53073007f44ae6b2babbe98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-12 14:39:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>{{Created or Updated_1.table_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait</field>
+        <id>98674bc1e53073007f44ae6b2babbe93</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-12 14:39:26</sys_created_on>
+        <sys_id>94674bc1e53073007f44ae6b2babbe98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-12 14:39:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
